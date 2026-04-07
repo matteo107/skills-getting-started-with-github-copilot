@@ -16,6 +16,7 @@ document.addEventListener("DOMContentLoaded", () => {
       // Clear and reset activity select
       activitySelect.innerHTML = '<option value="">-- Select an activity --</option>';
 
+      
       // Populate activities list
       Object.entries(activities).forEach(([name, details]) => {
         const activityCard = document.createElement("div");
